@@ -45,7 +45,6 @@ This Project predicts the Mobile Price Range and I created this Project in my 6 
 <hr>
 
 * The Final model takes the following inputs:
-<br>
 
 > Brand<br>
 > Model<br>
