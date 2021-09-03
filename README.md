@@ -29,7 +29,10 @@ This Project predicts the Mobile Price Range and I created this Project in my 6 
 >wifi:Has wifi or not<br>
 
 <hr>
-
+### USE:
+* This kind of prediction will help companies estimate price of mobiles to give tough competion to other mobile manufacturer
+* Also it will be usefull for Consumers to verify that they are paying best price for a mobile.
+<hr>
 ### The Following Keysteps that are performed in my created model: 
 > The DataSet used is model was :
 > Exploratry Data Analysis<br>
@@ -38,15 +41,16 @@ This Project predicts the Mobile Price Range and I created this Project in my 6 
 > I used KNN algorithm in the model , In this I got maximum accuracy.<br>
 > Created a Pickel file.<br>
 <hr>
-* The model takes the following inputs:
->Brand<br>
->Model<br>
->Battery power<br>
->Memory space<br>
->Ram<br>
->Pixel_height<br>
->Pixel-width<br>
->Condition Of Phone
+* The Final model takes the following inputs:
+<br>
+> Brand<br>
+> Model<br>
+> Battery power<br>
+> Memory space<br>
+> Ram<br>
+> Pixel_height<br>
+> Pixel-width<br>
+> Condition Of Phone
 <hr>
 * The Project was Deployed at Heroku Platform :
  Link :https://mobile-price--range-predict2.herokuapp.com/
