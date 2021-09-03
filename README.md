@@ -1,5 +1,5 @@
 # Mobile-Price-Range-Prediction:
-This Project predicts the Mobile Price Range and I created this Project in my 6 weeks training during 3rd year of B.tech.
+I created this Project in my 6 weeks training during 3rd year of B.tech.
 
 #### Aim: In this Project,On the basis of the mobile Specification like Battery power,Pixel-height,Bluetooth, Ram etc we are predicting Price range of the mobile.
 <hr>
