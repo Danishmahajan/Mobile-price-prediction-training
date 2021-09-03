@@ -3,7 +3,8 @@ This Project predicts the Mobile Price Range and I created this Project in my 6 
 
 #### Aim: In this Project,On the basis of the mobile Specification like Battery power,Pixel-height,Bluetooth, Ram etc we are predicting Price range of the mobile.
 <hr>
-* The DataSet used is model was :
+
+#### The DataSet used is model was :
 
 * In this data:
 >id:ID<br>
