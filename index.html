@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href='/static/style.css'>
+    <title>User Interface</title>
+</head>
+<body>
+    <div class="houseContainer">
+        <div class="houseContainer_result">
+            <form action="https://mobile-price--range-predict2.herokuapp.com/prediction" method='POST' class="Form">       
+            <h1>Enter Your Detail</h1>
+            <div class="formInput">
+                 <div class="formInput_container">
+                     <p> Brand</p>
+                    <input type="text" name="brand" id="brand" placeholder="Enter Brand">
+                 </div>
+                 <div class="formInput_container">
+                    <p> Model</p>
+                   <input type="text" name="model" id="model" placeholder="Enter Model">
+                </div>
+                <div class="formInput_container">
+                    <p>Battery Power</p>
+                   <input type="number" name="battery_power" id="battery_power" placeholder="Enter Battery Power in MAH">
+                </div>
+                <div class="formInput_container">
+                    <p>Memory space</p>
+                   <input type="number" name="memory_space" id="memory_space" placeholder="Enter Memory space in Gb" min="16">
+                </div>
+                <div class="formInput_container">
+                    <p>Ram</p>
+                   <input type="number" name="ram" id="ram" placeholder="Enter Ram in Gb" min="2">
+                </div>
+                <div class="formInput_container">
+                    <p>Pixels Height</p>
+                   <input type="number" name="px_height" id="px_height" placeholder="Enter Pixels Height" min="0">
+                </div>
+                <div class="formInput_container">
+                    <p>Pixels width</p>
+                   <input type="number" name="px_width" id="px_width" placeholder="Enter Pixels width" min="0">
+                </div>
+                <div class="formInput_container">
+                    <p>Condition of phones</p>
+                   <input type="text" name="good_bad" id="good_bad" placeholder="Condition of phones">
+                </div>
+                 <button type="submit">Submit</button>
+                 <div class="result">
+                   <h3>Predicted Price Range :{{output}} </h3>
+               </div>
+            </div>
+             
+       </form>
+        </div>
+        
+     </div>
+</body>
+</html>
