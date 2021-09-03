@@ -42,7 +42,7 @@ I created this Project in my 6 weeks training during 3rd year of B.tech.
 > Data visualisation<br>
 > Feature  selection<br>
 > I used KNN algorithm in the model , In this I got maximum accuracy.<br>
-> Created a Pickel file.<br>
+> Created a Pickle file.<br>
 <hr>
 
 * The Final model takes the following inputs:
