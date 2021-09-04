@@ -36,14 +36,6 @@ I created this Project in my 6 weeks training during 3rd year of B.tech.
 * Also it will be usefull for Consumers to verify that they are paying best price for a mobile.
 <hr>
 
-### Applied Models:
-* Linear Regression
-* KNN
-* Logistic Regression
-* Decision tree
-* Random forest
-<hr>
-
 ### The Following Keysteps that are performed in my created model: 
 > The DataSet used is model was :https://www.kaggle.com/c/mobile-price-prediction/data?select=train_data.csv <br>
 > Exploratry Data Analysis<br>
@@ -51,9 +43,19 @@ I created this Project in my 6 weeks training during 3rd year of B.tech.
 > Feature  selection<br>
 > I used KNN algorithm in the model , In this I got maximum accuracy.<br>
 > Created a Pickle file.<br>
+
 <hr>
 
-* The Final model takes the following inputs:
+### Applied ML Algorithms :
+* Linear Regression
+* KNN
+* Logistic Regression
+* Decision tree
+* Random forest
+
+<hr>
+
+### The Final model takes the following inputs:
 
 > Brand<br>
 > Model<br>
