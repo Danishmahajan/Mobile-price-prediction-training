@@ -64,5 +64,10 @@ I created this Project in my 6 weeks training during 3rd year of B.tech.
 > Pixel-width<br>
 > Condition Of Phone
 <hr>
+
 * The Project was Deployed at Heroku Platform :
  Link :https://mobile-price--range-predict2.herokuapp.com/
+
+* Looks like this :
+
+&nbsp;&nbsp;![image](https://user-images.githubusercontent.com/64760966/132096291-14f6d8f4-d347-491a-a74f-8fd5c20f8b01.png)
